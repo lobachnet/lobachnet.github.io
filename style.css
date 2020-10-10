@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.grade {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-size: 5.5vh;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
