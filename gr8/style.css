@@ -9,11 +9,11 @@ a {
 
 .grade {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-    font-size: 5.5vh;
+    font-size: 6vh;
     text-align: center;
     width: 70%;
     margin-left: 15%;
-    padding-top: 3.8vh;
-    padding-bottom: 3.8vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     color: black;
 }
