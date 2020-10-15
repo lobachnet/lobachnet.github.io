@@ -206,7 +206,7 @@ gestureZone.addEventListener('touchend', function(event) {
 }, false); 
 
 function handleGesture() {
-    if (touchendX <= touchstartX && ((touchstartX - touchendX) / (Math.abs(touchstartY - touchendY))) >= 1) {
+    if (touchendX <= touchstartX && ((touchstartX - touchendX) / (Math.abs(touchstartY - touchendY))) >= 1.6) {
         console.log(weekday_init);
         weekday_init++;
         if (weekday_init === 7) weekday_init = 1;
@@ -218,7 +218,7 @@ function handleGesture() {
         }
     }
     
-    if (touchendX >= touchstartX && ((touchendX - touchstartX) / (Math.abs(touchstartY - touchendY))) >= 1) {
+    if (touchendX >= touchstartX && ((touchendX - touchstartX) / (Math.abs(touchstartY - touchendY))) >= 1.6) {
         weekday_init--;
         if (weekday_init === 0) weekday_init = 6;
         update(weekday_init);
